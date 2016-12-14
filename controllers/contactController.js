@@ -9,16 +9,16 @@ class ContactController {
             mailer.sendEmail(contactRequest)
                 .then(()=> {
                     console.log("it worked!");
-                    res.redirect("/");
+                    // res.redirect("/");
                 })
                 .catch(error => {
                     console.log(`it didn't work because ${error}`);
-                    res.redirect("/");
+                    // res.redirect("/");
                 });
 
         } catch (err){
             console.log(err);
-            res.redirect("/");
+            // res.redirect("/");
         }
     }
 }
