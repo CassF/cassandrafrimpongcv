@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Let browser know website is optimized for mobile-->     
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <!-- Import animate css -->
+        <link rel="stylesheet" type="text/css" href="css/animations.css">
+        <!-- Import Font Awesome -->
+         <!--<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">-->
+        <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+        <!-- Import my custom index stylesheet -->
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    </head>
+    <body onload="myFunction()" style="margin:0;">
+        <!-- Start of preloader -->
+        <div id ="loader">
+            <div class="line square"></div>
+            <div class="line square2"></div>
+            <div class="line square3"></div>
+            <div class="line square4"></div>   
+            <div id ="name">
+                Cassandra Frimpong
+            </div>
+        </div>
+        <!-- End of preloader -->
+        <div id ="mainPage" style = "display:none;" class="animate-bottom">
+            <!-- Start of banner -->
+            <div class="banner" >
+                <img src ="Images/Pastel2.jpg" alt="" >
+                <h1>Cassandra Frimpong</h1>
+                <h2><strong> WEB DEVELOPER</strong></h2>
+            </div>
+            <!-- End of Banner -->
+            <!-- Start of header -->
+            <header>
+            <!-- Start of navbar -->
+                <div class="navbar-fixed">
+                    <nav role="navigation">
+                        <div class="nav-wrapper">
+                            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                            <ul class="hide-on-med-and-down">
+                                <li><a class="waves-effect waves-light scrollspy" href="#profile">Profile</a></li>
+                                <li><a class="waves-effect waves-light scrollspy" href="#projects">Projects</a></li>
+                                <li><a class="waves-effect waves-light scrollspy" href="#experience">Experience</a></li>
+                                <li><a class="waves-effect waves-light scrollspy" href="#contact">Contact</a></li>
+                            </ul>
+                            <!--Mobile Navbar-->
+                            <ul id="nav-mobile" class="side-nav">
+                                <li><a class="scrollspy" href="#profile">Profile</a></li>
+                                <li><a class="scrollspy" href="#projects">Projects</a></li>
+                                <li><a class="scrollspy" href="#experience">Experience</a></li>
+                                <li><a class="scrollspy" href="#contact">Contacts</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- End of header -->
+            <!-- Start of Profile section -->
+            <section class = "section">
+                <div class="row">
+                    <h3 id ="profile">Profile</h3>
+                <div class="col s6">
+                    <img id ="imgstyle" src ="Images/Me.jpg" alt="" />
+                    <h4>Bio</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                    <div class="col s6">
+                        <h4> Skillset</h4>
+                        <div class="projcontainer">
+                            <div class="content">
+                                <ul id="skill">
+                                <li><span class="expand html"></span><em>HTML5</em></li>
+                                <li><span class="expand js"></span><em>JavaScript</em></li>
+                                <li><span class="expand nr"></span><em>Node.js/React.js</em></li>
+                                <li><span class="expand wd"></span><em>Web Design and IA</em></li>
+                                <li><span class="expand vc"></span><em>Version Control, APIs</em></li>
+                                <li><span class="expand pa"></span><em>Practical Agile</em></li>
+                                <li><span class="expand pt"></span><em>Practical Testing</em></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!-- End of Skillbar section -->
+            <!-- Page break -->
+            <hr class="style">
+            
+            <!-- Start of Projects section -->
+            <section class = "section row">
+                <h3 id ="projects">Projects</h3>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front" style = "background: url(Images/lawfirm.jpg)">
+                        <!-- Front content -->
+                        </div>
+                        <div class="back">
+                        <!-- Back content -->
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front" style = "background: url(Images/lawfirm.jpg)">
+                        <!-- Front content -->
+                        </div>
+                        <div class="back">
+                        <!-- Back content -->
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front" style = "background: url(Images/lawfirm.jpg)">
+                        <!-- Front content -->
+                        </div>
+                        <div class="back">
+                        <!-- Back content -->
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front" style = "background: url(Images/lawfirm.jpg)">
+                        <!-- Front content -->
+                        </div>
+                        <div class="back">
+                        <!-- Back content -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Projects section -->
+            <!-- Page break -->
+            <hr class="style">
+            <!-- Start of Experience section -->
+            <section class = "section" id ="experience">
+                <h3>Experience</h3>
+                <div class="row container">
+                    <div class="animatedParent">
+                        <div class="col s2 animated tada">
+                            <i class="fa fa-suitcase fa-4x"></i>
+                        </div>
+                    </div>
+                    <div class="animatedParent">
+                        <div id="expos" class="col s7 animated fadeInRight">
+                            <h4 class = "experience">Sparta global, Web developer consultant</h4>
+                            <p>                                                     
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="animatedParent">
+                        <div class="col s3 animated fadeInLeft"> 
+                            <h6><i class="fa fa-calendar fa-2x"></i>      November 2016 - Present</h6>
+                            <h6><i class="fa fa-map-marker fa-2x"></i>      Richmond, London</h6>         
+                        </div>
+                    </div>
+                </div>
+                <div class="row container">
+                    <div class="animatedParent">
+                        <div class="col s2 animated tada">
+                            <i class="fa fa-graduation-cap fa-4x"></i>
+                        </div>
+                    </div>
+                    <div class="animatedParent">
+                        <div id="" class="col s7 animated fadeInRight">
+                            <h4 class = "experience">Bsc (Hons) Integrated Science, 1st</h4>
+                            <p>                                                     
+                            During my degree I explored different areas within STEM, however a large focus was placed on technology. After exploring coding with Java through my software development module, I developed a strong interest in computer programming which led me to study computer science modules as my optional modules. Studying both chemistry and biology as part of my degree allowed me to develop my analytical and problem solving skills as I frequently conducted successful lab experiments, which required a great attention to detail. 
+                            </p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="animatedParent">
+                        <div class="col s3 animated fadeInLeft">
+                            <h6><i class="fa fa-calendar fa-2x"></i>      September 2013 - July 2016</h6>
+                            <h6><i class="fa fa-map-marker fa-2x"></i>      Bradford, West Yorkshire</h6>             
+                        </div>
+                    </div>
+                </div>
+                <div class ="row container">
+                    <div class="animatedParent">
+                        <a target="_blank" href="documents/cv1.pdf" class=" btn animated bounceInUp " onclick="Materialize.toast('CV Downloaded', 4000)">
+                            <i class ="fa fa-cloud-download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Experience section -->
+            <!-- Page break -->
+            <hr class="style">
+            <!-- Start of Contact section -->
+            <section class="section" id="contact">
+                <div class="row">
+                <h3>Contact</h3>
+                    <!--<div class="row container">
+                        <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Your Message</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class = "animatedParent">
+                                <a class = "btn animated bounceInUp" onclick="Materialize.toast('Thank you! Your message has sent.', 3000)">
+                                    <i class = "fa fa-envelope-o"></i>
+                                    Send Message
+                                </a>
+                            </div>-->
+                        <div class="row">
+                            <form class="col s12" method="POST" action="/contact">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                    <input placeholder="First Name" name="firstName" id="firstName" type="text" class="validate" required>
+                                    <label for="firstName">First Name</label>        
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                    <input placeholder="Last Name" name="lastName" id="lastName" type="text" class="validate" required>
+                                    <label for="lastName">Last Name</label>        
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                    <input placeholder="Email" name="email" id="email" type="email" class="validate" required>
+                                    <label for="email">Email</label>        
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                    <input placeholder="Message" name="message" id="message" type="text" class="validate" required>
+                                    <label for="message">Message</label>        
+                                </div>
+                                <div class = "animatedParent">
+                                <button class="btn animated bounceInUp fa fa-envelope-o" type="submit" name="action" onclick="Materialize.toast('Thank you! Your message has sent.', 3000)">Send Message
+                                </button>
+                                </div>
+                                <!--<div class = "animatedParent">
+                                <a class = "btn animated bounceInUp" type="submit" name="action" onclick="Materialize.toast('Thank you! Your message has sent.', 3000)">
+                                    <i class = "fa fa-envelope-o"></i>
+                                    Send Message
+                                </a>
+                            </div>-->
+                            </form>
+                        </div>
+            </section>
+            <!-- Start of Footer -->
+            <footer class="page-footer">
+                <div class="row">
+                    <div class="col s6 copyright">
+                    © 2016 CASSANDRA FRIMPONG.
+                    </div>
+                    <div class="col s6">
+                        <div class="icons">
+                            <a href =""><i class ="fa fa-github-square fa-4x"></i></a>
+                            <a href =""><i class="fa fa-instagram fa-4x"></i></a>
+                            <a href =""><i class="fa fa-twitter-square fa-4x"></i></a>
+                            <a href =""><i class="fa fa-linkedin-square fa-4x"></i></a>
+                            <a href =""><i class="fa fa-medium fa-4x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!--Import jQuery before materialize.js-->
+            <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+            <script type="text/javascript" src="js/materialize.min.js"></script>
+            <!-- Import CSS animation script -->        
+            <script src="js/css3-animate-it.js"></script>
+            <script src="https://use.fontawesome.com/add6c7c4be.js"></script>
+            <!-- Import my personal stylesheet -->
+            <script src="js/index.js"></script>   
+    </body>
+  </html>
