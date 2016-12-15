@@ -599,7 +599,7 @@ h4 {
 
 /* START OF FOOTER */
 footer.page-footer {
-    background-image: url(Images/FooterPastel.jpg);
+    background-image: url(../Images/FooterPastel.jpg);
     background-color: #E2E2E2;
     width: 100%;
     background-size: 100% 100%;
