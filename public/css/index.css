@@ -380,7 +380,7 @@ hr[role="tournament2"]::before {
     text-align: center;
     /*margin-top:-17%;*/
     animation-name: nameh1;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-timing-function: ease-in;
     border-bottom: 4px solid white;
 }
@@ -394,7 +394,7 @@ hr[role="tournament2"]::before {
     font-size: 300%;
     color:white;
     animation-name: nameh2;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-timing-function: ease-in;
 }
 
@@ -538,53 +538,13 @@ h4 {
 /* END OF PROFILE SECTION */
 
 /* START OF PROJECTS SECTION */
-/*Entire container*/
-.flip-container {
-	perspective: 1000%;
-    float: left;
-}
-/* Flip the pane when hovered */
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-    transform: rotateY(180deg);
+.indicator-item.active {
+    background-color: #F9D1F2 !important;
 }
 
-.flip-container, .front, .back {
-	width: 350px;
-	height: 350px;
-    margin-top: 0.3%;
-    margin-left: 0.3%;
-    margin-right: 0.3%;
-    border-radius: 50%;
-    margin-bottom: 1%;
-}
-/* Flip speed goes here */
-.flipper {
-	transition: 0.9s;
-	transform-style: preserve-3d;
-	position: relative;
-}
+/*.indicator-item {
 
-/* Hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-/* Front pane, placed above back */
-.front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
-    background-color: lightblue;
-}
-
-/* Back, initially hidden pane */
-.back {
-	transform: rotateY(180deg);
-    background-color: #F9D1F2;
-}
+}*/
 /* END OF PROJECTS SECTION */
 
 /* START OF EXPERIENCE */
