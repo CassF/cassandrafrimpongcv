@@ -6,6 +6,14 @@
     padding: 0;
     box-sizing: border-box;
 }*/
+@font-face {
+    font-family: "Stackyard";
+    src: url('../fonts/stackyard/Stackyard.ttf'); 
+}
+@font-face {
+    font-family: "Vanadine";
+    src: url('../fonts/vanadine/VanadineBold.ttf'); 
+}
 /* Main components */
 p {
     /*font-family: 'Arvo', serif;*/
@@ -292,8 +300,9 @@ nav ul li a {
     width: 100%;
     color:#C4C7CA;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 120%;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: "Vanadine";
+    font-size: 1.6rem;
 }
 
 nav ul li a:hover {
@@ -365,32 +374,24 @@ hr[role="tournament2"]::before {
 .banner h1 {
     /*position:relative;*/
     width: 100%; 
-    /*font-family: 'Montserrat', sans-serif;*/
-    /*font-family: 'Roboto Condensed', sans-serif;*/
-    /*font-family: 'Raleway', sans-serif;*/
-    font-family: 'Arvo', serif;
-    /*font-family: 'Vollkorn', serif;*/
-    /*font-family: 'Gabriela', serif;*/
-    /*font-family: 'PT Serif Caption', serif;*/
-    font-size: 800%; 
+    font-family: "Stackyard";
+    font-size: 1200%; 
     color:white;
     text-align: center;
     /*margin-top:-17%;*/
     animation-name: nameh1;
     animation-duration: 5s;
     animation-timing-function: ease-in;
-    border-bottom: 5px solid white;
+    border-bottom: 4px solid white;
 }
 
 .banner h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'PT Serif Caption', serif;
-    font-family: 'Arvo', serif;
+    font-family: "Vanadine";
     color:black;
     margin-top:-1%;
     position:relative; 
     text-align: center;
-    font-size: 270%;
+    font-size: 300%;
     color:white;
     animation-name: nameh2;
     animation-duration: 5s;
@@ -419,18 +420,18 @@ h3 {
     color:#C4C7CA;
     text-align: left;
     font-size: 3.4rem;
-    /*font-family: 'Roboto Condensed', sans-serif;*/
-    /*font-family: 'Montserrat', sans-serif;*/
-    font-family: 'Arvo', serif;
+    font-family: "Stackyard";
     padding-bottom: 4%;
 }
 
 h4 {
     color:#C4C7CA;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Vanadine";
     text-transform: uppercase;
-    font-size: 150%;
+    font-size: 200%;
     text-align: center;
+    font-weight: bold;
+    
 }
 /* END OF HEADING STYLES */
 
@@ -617,6 +618,7 @@ footer.page-footer {
     width: 100%;
     background-size: 100% 100%;
     height: 100%;
+
 }
 /* Start of icons styling */
 .fa-github-square {
@@ -650,7 +652,7 @@ footer.page-footer {
 /* Copyright */
 .copyright {
     color: #C4C7CA;
-    font-family: "Roboto", sans-serif;
+    font-family: "Vanadine";
     transform: uppercase;
     font-size: 1.5rem;
     margin-top: 3%;
