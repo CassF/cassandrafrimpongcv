@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!--Let browser know website is optimized for mobile-->     
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <!--Import Google Icon Font-->
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
-        <!-- Import animate css -->
-        <link rel="stylesheet" type="text/css" href="css/animations.css">
-        <!-- Import Font Awesome -->
-         <!--<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">-->
-        <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
-        <!-- Import my custom index stylesheet -->
-        <link rel="stylesheet" type="text/css" href="css/index.css">
 
-    </head>
-    <body onload="myFunction()" style="margin:0;">
-        <!-- Start of preloader -->
-        <div id ="loader">
-            <div class="line square"></div>
-            <div class="line square2"></div>
-            <div class="line square3"></div>
-            <div class="line square4"></div>   
-            <div id ="name">
-                Cassandra Frimpong
-            </div>
+<head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <!-- Import animate css -->
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!-- Import Font Awesome -->
+    <!--<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">-->
+    <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+    <!-- Import my custom index stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+    <!-- Start of preloader -->
+    <div id="loader">
+        <div class="line square"></div>
+        <div class="line square2"></div>
+        <div class="line square3"></div>
+        <div class="line square4"></div>
+        <div id="name">
+            Cassandra Frimpong
         </div>
-        <!-- End of preloader -->
-        <div id ="mainPage" style = "display:none;" class="animate-bottom">
-            <!-- Start of banner -->
-            <div class="banner" >
-                <!--<img src ="Images/Pastel2.jpg" alt="" >-->
-                <h1>Cassandra Frimpong</h1>
-                <h2><strong> WEB DEVELOPER</strong></h2>
-            </div>
-            <!-- End of Banner -->
-            <!-- Start of header -->
-            <header>
+    </div>
+    <!-- End of preloader -->
+    <div id="mainPage" style="display:none;" class="animate-bottom">
+        <!-- Start of banner -->
+        <div class="banner">
+            <!--<img src ="Images/Pastel2.jpg" alt="" >-->
+            <h1>Cassandra Frimpong</h1>
+            <h2><strong> WEB DEVELOPER</strong></h2>
+        </div>
+        <!-- End of Banner -->
+        <!-- Start of header -->
+        <header>
             <!-- Start of navbar -->
-                <!--<div class="navbar-fixed">
+            <!--<div class="navbar-fixed">
                     <nav role="navigation">
                         <div class="nav-wrapper">
                             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -49,8 +53,8 @@
                                 <li><a class="waves-effect waves-light scrollspy" href="#experience">Experience</a></li>
                                 <li><a class="waves-effect waves-light scrollspy" href="#contact">Contact</a></li>
                             </ul>-->
-                            <!--Mobile Navbar-->
-                            <!--<ul id="mobile-demo" class="side-nav">
+            <!--Mobile Navbar-->
+            <!--<ul id="mobile-demo" class="side-nav">
                                 <li><a class="scrollspy" href="#profile">Profile</a></li>
                                 <li><a class="scrollspy" href="#projects">Projects</a></li>
                                 <li><a class="scrollspy" href="#experience">Experience</a></li>
@@ -59,39 +63,39 @@
                         </div>
                     </nav>
                 </div>-->
-                <nav role="navigation">
+            <nav role="navigation">
                 <div class="nav-wrapper">
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul class="navToAppend">
-                <li><a id="contactNav" href="#profile">Profile</a></li>
-                <li><a id="projectsNav" href="#projects">Projects</a></li>
-                <li><a id="educationNav" href="#experience">Experience</a></li>
-                <li><a id="jobsNav" href="#contact">Contacts</a></li>            
-                </ul>
-                <ul class="side-nav" id="mobile-demo">
-                <li><a id="contactNav" href="#profile">Profile</a></li>
-                <li><a id="projectsNav" href="#projects">Projects</a></li>
-                <li><a id="educationNav" href="#experience">Experience</a></li>
-                <li><a id="jobsNav" href="#contact">Contacts</a></li>  
-                </ul>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="navToAppend">
+                        <li><a id="contactNav" href="#profile">Profile</a></li>
+                        <li><a id="projectsNav" href="#projects">Projects</a></li>
+                        <li><a id="educationNav" href="#experience">Experience</a></li>
+                        <li><a id="jobsNav" href="#contact">Contacts</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a id="contactNav" href="#profile">Profile</a></li>
+                        <li><a id="projectsNav" href="#projects">Projects</a></li>
+                        <li><a id="educationNav" href="#experience">Experience</a></li>
+                        <li><a id="jobsNav" href="#contact">Contacts</a></li>
+                    </ul>
                 </div>
-                </nav>
-            </header>
-            <!-- End of header -->
-            <!-- Start of Profile section -->
-            <section class = "section">
-                <div class="row">
-                    <h3 id ="profile">Profile</h3>
+            </nav>
+        </header>
+        <!-- End of header -->
+        <!-- Start of Profile section -->
+        <section class="section">
+            <div class="row">
+                <h3 id="profile">Profile</h3>
                 <div class="col s6">
-                    <img id ="imgstyle" src ="Images/BioPic.jpg" alt="" />
+                    <img id="imgstyle" src="Images/BioPic.jpg" alt="" />
                     <h4>Bio</h4>
                     <p></p>
                 </div>
-                    <div class="col s6">
-                        <h4> Skillset</h4>
-                        <div class="projcontainer">
-                            <div class="content">
-                                <ul id="skill">
+                <div class="col s6">
+                    <h4> Skillset</h4>
+                    <div class="projcontainer">
+                        <div class="content">
+                            <ul id="skill">
                                 <li><span class="expand html"></span><em>HTML5</em></li>
                                 <li><span class="expand js"></span><em>JavaScript</em></li>
                                 <li><span class="expand nr"></span><em>Node.js/React.js</em></li>
@@ -99,183 +103,186 @@
                                 <li><span class="expand vc"></span><em>Version Control, APIs</em></li>
                                 <li><span class="expand pa"></span><em>Practical Agile</em></li>
                                 <li><span class="expand pt"></span><em>Practical Testing</em></li>
-                                </ul>
-                            </div>
+                            </ul>
                         </div>
                     </div>
-            </section>
-            <!-- End of Skillbar section -->
-            <!-- Page break -->
-            <!--<hr class="style">-->
-            
-            <!-- Start of Projects section -->
-            <section class = "section row greySection">
-                <h3 id ="projects">Projects</h3>
-                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper">
-                        <div class="front" style = "background: url(Images/lawfirm.jpg)">
+                </div>
+        </section>
+        <!-- End of Skillbar section -->
+        <!-- Page break -->
+        <!--<hr class="style">-->
+
+        <!-- Start of Projects section -->
+        <section class="section row greySection">
+            <h3 id="projects">Projects</h3>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front" style="background: url(Images/Scribbl2.png)">
+
                         <!-- Front content -->
-                        </div>
-                        <div class="back">
+                    </div>
+                    <div class="back">
                         <!-- Back content -->
-                        </div>
                     </div>
                 </div>
-                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper">
-                        <div class="front" style = "background: url(Images/lawfirm.jpg)">
-                        <!-- Front content -->
-                        </div>
-                        <div class="back">
-                        <!-- Back content -->
-                        </div>
+            </div>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <!-- Front content -->
+                    <div class="front" style="background: url(Images/flikshow.png)">
+                    </div>
+                    <!-- Back content -->
+                    <div class="back">
                     </div>
                 </div>
-                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper">
-                        <div class="front" style = "background: url(Images/lawfirm.jpg)">
-                        <!-- Front content -->
-                        </div>
-                        <div class="back">
-                        <!-- Back content -->
-                        </div>
+            </div>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <!-- Front content -->
+                    <div class="front" style="background: url(Images/lawfirm.jpg)">
+                    </div>
+                    <!-- Back content -->
+                    <div class="back">
                     </div>
                 </div>
-                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper">
-                        <div class="front" style = "background: url(Images/lawfirm.jpg)">
-                        <!-- Front content -->
-                        </div>
-                        <div class="back">
-                        <!-- Back content -->
-                        </div>
+            </div>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <!-- Front content -->
+                    <div class="front" style="background: url(Images/lawfirm.jpg)">
+                    </div>
+                    <!-- Back content -->
+                    <div class="back">
                     </div>
                 </div>
-            </section>
-            <!-- End of Projects section -->
-            <!-- Page break -->
-            <!--<hr class="style">-->
-            <!-- Start of Experience section -->
-            <section class = "section" id ="experience">
-                <h3>Experience</h3>
-                <div class="row container">
-                    <div class="animatedParent">
-                        <div class="col s2 animated tada">
-                            <i class="fa fa-suitcase fa-4x"></i>
-                        </div>
-                    </div>
-                    <div class="animatedParent">
-                        <div id="expos" class="col s7 animated fadeInRight">
-                            <h4 class = "experience">Sparta global, Web developer consultant</h4>
-                            <p>                                                     
-                            Currently working as a Web Developer at Sparta Global. I am in the process of completing a 12 week training course, which 
-                            </p>
-                            <hr>
-                        </div>
-                    </div>
-                    <div class="animatedParent">
-                        <div class="col s3 animated fadeInLeft"> 
-                            <h6><i class="fa fa-calendar fa-2x"></i>      November 2016 - Present</h6>
-                            <h6><i class="fa fa-map-marker fa-2x"></i>      Richmond, London</h6>         
-                        </div>
+            </div>
+        </section>
+        <!-- End of Projects section -->
+        <!-- Page break -->
+        <!--<hr class="style">-->
+        <!-- Start of Experience section -->
+        <section class="section" id="experience">
+            <h3>Experience</h3>
+            <div class="row container">
+                <div class="animatedParent">
+                    <div class="col s2 animated tada">
+                        <i class="fa fa-suitcase fa-4x"></i>
                     </div>
                 </div>
-                <div class="row container">
-                    <div class="animatedParent">
-                        <div class="col s2 animated tada">
-                            <i class="fa fa-graduation-cap fa-4x"></i>
-                        </div>
-                    </div>
-                    <div class="animatedParent">
-                        <div id="" class="col s7 animated fadeInRight">
-                            <h4 class = "experience">Bsc (Hons) Integrated Science, 1st</h4>
-                            <p>                                                     
-                            During my degree I explored different areas within STEM. I have utilised my scientific background to develop a proactive analytical approach to problem solving that helps me to successfully design and develop web applications with a special and unique focus on the client’s aim.
-                            </p>
-                            <hr>
-                        </div> 
-                    </div>
-                    <div class="animatedParent">
-                        <div class="col s3 animated fadeInLeft">
-                            <h6><i class="fa fa-calendar fa-2x"></i>      September 2013 - July 2016</h6>
-                            <h6><i class="fa fa-map-marker fa-2x"></i>      Bradford, West Yorkshire</h6>             
-                        </div>
+                <div class="animatedParent">
+                    <div id="expos" class="col s7 animated fadeInRight">
+                        <h4 class="experience">Sparta global, Web developer consultant</h4>
+                        <p>
+                            Currently working as a Web Developer at Sparta Global. I am in the process of completing a 12 week training course, which
+                        </p>
+                        <hr>
                     </div>
                 </div>
-                <div class ="row container">
-                    <div class="animatedParent">
-                        <a target="_blank" href="documents/cv1.pdf" class=" btn animated bounceInUp " onclick="Materialize.toast('CV Downloaded', 3000)">
-                            <i class ="fa fa-cloud-download"></i>
-                            Download CV
-                        </a>
+                <div class="animatedParent">
+                    <div class="col s3 animated fadeInLeft">
+                        <h6><i class="fa fa-calendar fa-2x"></i> November 2016 - Present</h6>
+                        <h6><i class="fa fa-map-marker fa-2x"></i> Richmond, London</h6>
                     </div>
                 </div>
-            </section>
-            <!-- End of Experience section -->
-            <!-- Page break -->
-            <!--<hr class="style">-->
-            <!-- Start of Contact section -->
-            <section class="section greySection" id="contact">
-                <h3>Contact</h3>
-                <div class="row container">
-                    <form class="col s12" method="POST" action="/contact">
-                        <div class="row">
-                            <div class="input-field col s6">
+            </div>
+            <div class="row container">
+                <div class="animatedParent">
+                    <div class="col s2 animated tada">
+                        <i class="fa fa-graduation-cap fa-4x"></i>
+                    </div>
+                </div>
+                <div class="animatedParent">
+                    <div id="" class="col s7 animated fadeInRight">
+                        <h4 class="experience">Bsc (Hons) Integrated Science, 1st</h4>
+                        <p>
+                            During my degree I explored different areas within STEM. I have utilised my scientific background to develop a proactive
+                            analytical approach to problem solving that helps me to successfully design and develop web applications
+                            with a special and unique focus on the client’s aim.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="animatedParent">
+                    <div class="col s3 animated fadeInLeft">
+                        <h6><i class="fa fa-calendar fa-2x"></i> September 2013 - July 2016</h6>
+                        <h6><i class="fa fa-map-marker fa-2x"></i> Bradford, West Yorkshire</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row container">
+                <div class="animatedParent">
+                    <a target="_blank" href="documents/cv1.pdf" class=" btn animated bounceInUp " onclick="Materialize.toast('CV Downloaded', 3000)">
+                        <i class="fa fa-cloud-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- End of Experience section -->
+        <!-- Page break -->
+        <!--<hr class="style">-->
+        <!-- Start of Contact section -->
+        <section class="section greySection" id="contact">
+            <h3>Contact</h3>
+            <div class="row container">
+                <form class="col s12" method="POST" action="/contact">
+                    <div class="row">
+                        <div class="input-field col s6">
                             <input placeholder="First Name" name="firstName" id="firstName" type="text" class="validate" required>
-                            <label for="firstName">First Name</label>        
-                            </div>
-                            <div class="input-field col s6">
+                            <label for="firstName">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
                             <input placeholder="Last Name" name="lastName" id="lastName" type="text" class="validate" required>
-                            <label for="lastName">Last Name</label>        
-                            </div>
+                            <label for="lastName">Last Name</label>
                         </div>
-                        <div class="row">
-                            <div class="input-field col s12">
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
                             <input placeholder="Email" name="email" id="email" type="email" class="validate" required>
-                            <label for="email">Email</label>     
-                            </div>   
+                            <label for="email">Email</label>
                         </div>
-                        <div class="row">
-                            <div class="input-field col s12">
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
                             <input placeholder="Message" name="message" id="message" type="text" class="validate" required>
-                            <label for="message">Message</label>        
-                            </div>
+                            <label for="message">Message</label>
                         </div>
-                        <div class="row">
-                            <div class = "animatedParent">
+                    </div>
+                    <div class="row">
+                        <div class="animatedParent">
                             <button class="btn animated bounceInUp" type="submit" name="action" onclick="Materialize.toast('Thank you! Your message has sent.', 3000)">
                                 <i class = "fa fa-envelope-o"></i>
                                 Send Message
                             </button>
-                            </div>
                         </div>
-                    </form>
-                </div>
-            </section>
-            <!-- Start of Footer -->
-            <footer class="page-footer">
-                <div class="row">
-                    <div class="col s6 copyright">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Start of Footer -->
+        <footer class="page-footer">
+            <div class="row">
+                <div class="col s6 copyright">
                     © 2016 CASSANDRA FRIMPONG.
-                    </div>
-                    <div class="col s6">
-                        <div class="icons">
-                            <a href =""><i class ="fa fa-github-square fa-4x"></i></a>
-                            <a href =""><i class="fa fa-instagram fa-4x"></i></a>
-                            <a href =""><i class="fa fa-twitter-square fa-4x"></i></a>
-                            <a href =""><i class="fa fa-linkedin-square fa-4x"></i></a>
-                            <a href =""><i class="fa fa-medium fa-4x"></i></a>
-                        </div>
+                </div>
+                <div class="col s6">
+                    <div class="icons">
+                        <a href=""><i class ="fa fa-github-square fa-3x"></i></a>
+                        <a href=""><i class="fa fa-instagram fa-3x"></i></a>
+                        <a href=""><i class="fa fa-twitter-square fa-3x"></i></a>
+                        <a href=""><i class="fa fa-linkedin-square fa-3x"></i></a>
+                        <a href=""><i class="fa fa-medium fa-3x"></i></a>
                     </div>
                 </div>
-            </footer>
-            <!--Import jQuery before materialize.js-->
-            <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-            <script type="text/javascript" src="js/materialize.min.js"></script>
-            <!-- Import CSS animation script -->        
-            <script src="js/css3-animate-it.js"></script>
-            <script src="https://use.fontawesome.com/add6c7c4be.js"></script>
-            <!-- Import my personal stylesheet -->
-            <script src="js/index.js"></script>   
-    </body>
-  </html>
+            </div>
+        </footer>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <!-- Import CSS animation script -->
+        <script src="js/css3-animate-it.js"></script>
+        <script src="https://use.fontawesome.com/add6c7c4be.js"></script>
+        <!-- Import my personal stylesheet -->
+        <script src="js/index.js"></script>
+</body>
+
+</html>
