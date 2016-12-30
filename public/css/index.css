@@ -299,12 +299,19 @@ nav ul li a {
 nav ul li a:hover {
     font-weight: bold;
     color: white;
+    /*background-color: #FAF6F9;
+    border-bottom: 3px solid #C4C7CA;*/
 }
-
 i.material-icons {
     color: grey;
 }
 /* END OF NAVBAR */
+
+/* GREY SECTIONS */
+.greySection {
+    background-color: #FAF6F9;
+}
+
 
 /* START OF PAGE BREAKER STYLE */
 hr.style { 
@@ -342,7 +349,9 @@ hr[role="tournament2"]::before {
 .banner {
     position:relative;
     width: 100%;
-    height: auto;
+        height: 300px;
+        background-color: #FADDF7;
+    /*height: auto;*/
     overflow: hidden;
 }
 
@@ -354,7 +363,7 @@ hr[role="tournament2"]::before {
 }
 
 .banner h1 {
-    position:relative;
+    /*position:relative;*/
     width: 100%; 
     /*font-family: 'Montserrat', sans-serif;*/
     /*font-family: 'Roboto Condensed', sans-serif;*/
@@ -366,7 +375,7 @@ hr[role="tournament2"]::before {
     font-size: 800%; 
     color:white;
     text-align: center;
-    margin-top:-17%;
+    /*margin-top:-17%;*/
     animation-name: nameh1;
     animation-duration: 5s;
     animation-timing-function: ease-in;
@@ -492,7 +501,7 @@ h4 {
 	height:10px; 
 	margin:2px; 
     border-radius:10px;
-	background:linear-gradient(to right, #F9D1F2 0%,#E1A4D7 100%); 
+	background:linear-gradient(to right, #F9D1F2 0%,#FADDF7 100%); 
 	position:absolute;
 	box-shadow:0px 0px 3px 1px rgba(234,224,172,0.6);
 }
@@ -600,32 +609,35 @@ h4 {
 
 /* START OF FOOTER */
 footer.page-footer {
-    background-image: url(../Images/FooterPastel.jpg);
-    background-color: #E2E2E2;
+    /*background-image: url(../Images/FooterPastel.jpg);*/
+    margin-top: 0;
+    /*background-color: #DEDEDE;*/
+    background-color: #FAF6F9;
+    border-top: 2px solid #C4C7CA;
     width: 100%;
     background-size: 100% 100%;
     height: 100%;
 }
 /* Start of icons styling */
 .fa-github-square {
-    color: white;
+    color: #C4C7CA;
     margin-left: 1%;
 }
 
 .fa-twitter-square {
-    color: white;
+    color: #C4C7CA;
 }
 
 .fa-linkedin-square {
-    color: white;
+    color: #C4C7CA;
 }
 
 .fa-instagram {
-    color: white;
+    color: #C4C7CA;
 }
 
 .fa-medium {
-    color: white;
+    color: #C4C7CA;
 }
 
 .icons {
@@ -637,7 +649,7 @@ footer.page-footer {
 
 /* Copyright */
 .copyright {
-    color: white;
+    color: #C4C7CA;
     font-family: "Roboto", sans-serif;
     transform: uppercase;
     font-size: 1.5rem;
