@@ -31,16 +31,22 @@ p {
 
 /* START OF PRELOADER */
 #name {
-        font-family: "Stackyard";
-        text-align: center;
-        color:  #3498DB;
-        font-size: 200%;
+    font-family: "Stackyard";
+    text-align: center;
+    color:  #B6137F;
+    font-size: 230%;
+    margin-top: 140%;
+    white-space: nowrap;
+    padding-top: 30%;
+    /*box-sizing: border-box;
+    position:relative;
+    width: 100%; */
 
 }
 #loader {
     position: absolute;
     top: 50%;
-    margin-top: -70px;
+    margin-top: -50px;
     /* half of #content height*/
     left: 50%;
     margin-left: -50px;
@@ -75,7 +81,7 @@ p {
  left: 0;
  width: 100%;
  height: 100%;
- background-color: #3498DB;
+ background-color: #B6137F;
  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
  animation: sk-foldCubeAngle 2.4s infinite linear both;
  -webkit-transform-origin: 100% 100%;
@@ -191,7 +197,8 @@ nav li {
 
 nav ul li a {
     width: 100%;
-    color:#C4C7CA;
+    /*color:#C4C7CA;*/
+    color: #B6137F;
     text-align: center;
     /*font-family: 'Montserrat', sans-serif;*/
     font-family: "Vanadine";
@@ -221,7 +228,7 @@ i.material-icons {
     width: 100%;
         height: 300px;
         /*background-color: #FADDF7;*/
-        background-color:  #3498DB;
+        background-color:  #B6137F;
         /*background-color: #2980B9;*/
     /*height: auto;*/
     overflow: hidden;
@@ -364,7 +371,7 @@ h4 {
 	height:10px; 
 	margin:2px; 
     border-radius:10px;
-	background:linear-gradient(to right, #3498DB 0%,#AED6F1 100%); 
+	background:linear-gradient(to right, #B6137F 0%,#FEC7EB 100%); 
 	position:absolute;
 	box-shadow:0px 0px 3px 1px rgba(234,224,172,0.6);
 }
@@ -399,11 +406,11 @@ h4 {
 
 /* START OF PROJECTS SECTION */
 .indicator-item.active {
-    background-color: #3498DB !important;
+    background-color: #B6137F !important;
 }
 
 .indicator-item {
-    background-color: #AED6F1 !important;
+    background-color: #C4C7CA !important;
 }
 /* END OF PROJECTS SECTION */
 
@@ -416,7 +423,7 @@ h4 {
 .btn, .btn-large {
     text-decoration: none;
     color: #fff;
-    background-color: #3498DB;
+    background-color: #B6137F;
     text-align: center;
     letter-spacing: .5px;
     transition: .2s ease-out;
@@ -425,7 +432,7 @@ h4 {
 }
 
 .btn:hover, .btn-large:hover {
-    background-color: #AED6F1;
+    background-color: #C4C7CA;
 }
 /* END OF EXPERIENCE */
 
@@ -444,8 +451,8 @@ input[type=tel]:focus:not([readonly]),
 input[type=number]:focus:not([readonly]),
 input[type=search]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #3498DB!important;
-    box-shadow: 0 1px 0 0 #A6D0F9 !important;
+    border-bottom: 1px solid #B6137F!important;
+    box-shadow: 0 1px 0 0 #B6137F !important;
 }
 
 input:not([type]):focus:not([readonly]) + label,
@@ -461,7 +468,7 @@ input[type=tel]:focus:not([readonly]) + label,
 input[type=number]:focus:not([readonly]) + label,
 input[type=search]:focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-    color: #3498DB;
+    color: #B6137F;
 }
 
 input:not([type]).valid, input:not([type]):focus.valid, 
@@ -479,20 +486,20 @@ input[type=number].valid, input[type=number]:focus.valid,
 input[type=search].valid, input[type=search]:focus.valid, 
 textarea.materialize-textarea.valid, 
 textarea.materialize-textarea:focus.valid {
-    border-bottom: 1px solid #3498DB;
+    border-bottom: 1px solid #B6137F;
     box-shadow: 0 1px 0 0 #B4B7B9;
 }
 
-/*.input-field label {
+.input-field label {
     color:black ;
     position: absolute;
     top: 0.8rem;
     left: 0;
-    font-size: 18px;
+    font-size: 400px;
     cursor: text;
     transition: .2s ease-out;
-    font-family: 'News Cycle', sans-serif;
-}*/
+    font-family: "Vanadine";
+}
 /* END OF INPUT FIELDS */  
 
 /* END OF CONTACT SECTION */
@@ -501,7 +508,6 @@ textarea.materialize-textarea:focus.valid {
 footer.page-footer {
     /*background-image: url(../Images/FooterPastel.jpg);*/
     margin-top: 0;
-    /*background-color: #DEDEDE;*/
     background-color: #FAF6F9;
     border-top: 2px solid #C4C7CA;
     width: 100%;
@@ -511,24 +517,24 @@ footer.page-footer {
 }
 /* Start of icons styling */
 .fa-github-square {
-    color: #3498DB;
+    color: #B6137F;
     margin-left: 1%;
 }
 
 .fa-twitter-square {
-    color: #3498DB;
+    color: #B6137F;
 }
 
 .fa-linkedin-square {
-    color: #3498DB;
+    color: #B6137F;
 }
 
 .fa-instagram {
-    color: #3498DB;
+    color: #B6137F;
 }
 
 .fa-medium {
-    color: #3498DB;
+    color: #B6137F;
 }
 
 .icons {
@@ -540,7 +546,7 @@ footer.page-footer {
 
 /* Copyright */
 .copyright {
-    color: #3498DB;
+    color: #B6137F;
     font-family: "Vanadine";
     transform: uppercase;
     font-size: 1.5rem;
@@ -576,20 +582,20 @@ footer.page-footer {
 .banner img {
     height: auto;
 }
-}
+
 @media only screen and (max-width: 780px) {
 /* Move nav bar to top of page */
 .navbar-fixed {
      width: 100%;
      position: absolute;
      top: 0;
-     }
+}
 /* Move banner down below top nav bar */
 .banner {
      position: relative;
      top: 30px;
      height: auto;
-     }
+}
 .banner h1 {
     position:relative;
     font-size: 500%; 
@@ -597,7 +603,7 @@ footer.page-footer {
 .banner h2 {
     font-size: 156%;
 }
-}
+
 /* PROJECTS */
 @media screen and (max-width: 768px) {
    .projcontainer:before {
@@ -616,6 +622,6 @@ footer.page-footer {
       float: none;
       direction: ltr;
    }
-}
+
 
 /* END OF MEDIA QUERIES */ 
