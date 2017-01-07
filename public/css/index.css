@@ -378,12 +378,12 @@ h4 {
 
 /* Skills bar animation */
 .html   { width:80%;  -moz-animation:html 2s 5.5s ease-out;         -webkit-animation:html 2s 5.5s ease-out;   }
-.js		{ width:90%;  -moz-animation:js 2s 5.5s ease-out;   		-webkit-animation:js 2s 5.5s ease-out;     }
+.js		{ width:65%;  -moz-animation:js 2s 5.5s ease-out;   		-webkit-animation:js 2s 5.5s ease-out;     }
 .nr     { width:70%;  -moz-animation:nr 2s 5.5s ease-out;       	-webkit-animation:nr 2s 5.5s ease-out;     }
-.wd     { width:60%;  -moz-animation:wd 2s 5.5s ease-out;       	-webkit-animation:wd 2s 5.5s ease-out;     }
+.wd     { width:80%;  -moz-animation:wd 2s 5.5s ease-out;       	-webkit-animation:wd 2s 5.5s ease-out;     }
 .vc     { width:70%;  -moz-animation:vc 2s 5.5s ease-out;      	    -webkit-animation:vc 2s 5.5s ease-out;     }
 .pa     { width:60%;  -moz-animation:pa 2s 5.5s ease-out;           -webkit-animation:pa 2s 5.5s ease-out;     }
-.pt     { width:60%;  -moz-animation:pt 2s 5.5s ease-out;           -webkit-animation:pt 2s 5.5s ease-out;     }
+.pt     { width:80%;  -moz-animation:pt 2s 5.5s ease-out;           -webkit-animation:pt 2s 5.5s ease-out;     }
 
 
 @-moz-keyframes html      { 0%  { width:0px;} 100%{ width:80%;}  }
