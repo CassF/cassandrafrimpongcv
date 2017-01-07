@@ -387,21 +387,21 @@ h4 {
 
 
 @-moz-keyframes html      { 0%  { width:0px;} 100%{ width:80%;}  }
-@-moz-keyframes js        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes js        { 0%  { width:0px;} 100%{ width:65%;}  }
 @-moz-keyframes nr        { 0%  { width:0px;} 100%{ width:70%;}  }
-@-moz-keyframes wd        { 0%  { width:0px;} 100%{ width:60%;}  }
+@-moz-keyframes wd        { 0%  { width:0px;} 100%{ width:80%;}  }
 @-moz-keyframes vc        { 0%  { width:0px;} 100%{ width:70%;}  }
 @-moz-keyframes pa        { 0%  { width:0px;} 100%{ width:60%;}  }
-@-moz-keyframes pt        { 0%  { width:0px;} 100%{ width:60%;}  }
+@-moz-keyframes pt        { 0%  { width:0px;} 100%{ width:80%;}  }
 
 
 @-webkit-keyframes html   { 0%  { width:0px;} 100%{ width:80%;}  }
-@-webkit-keyframes js     { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes js     { 0%  { width:0px;} 100%{ width:65%;}  }
 @-webkit-keyframes nr     { 0%  { width:0px;} 100%{ width:70%;}  }
-@-webkit-keyframes wd     { 0%  { width:0px;} 100%{ width:60%;}  }
+@-webkit-keyframes wd     { 0%  { width:0px;} 100%{ width:80%;}  }
 @-webkit-keyframes vc     { 0%  { width:0px;} 100%{ width:70%;}  }
 @-webkit-keyframes pa     { 0%  { width:0px;} 100%{ width:60%;}  }
-@-webkit-keyframes pt     { 0%  { width:0px;} 100%{ width:60%;}  }
+@-webkit-keyframes pt     { 0%  { width:0px;} 100%{ width:80%;}  }
 /* END OF PROFILE SECTION */
 
 /* START OF PROJECTS SECTION */
