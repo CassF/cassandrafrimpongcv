@@ -249,9 +249,9 @@ i.material-icons {
     color:white;
     text-align: center;
     /*margin-top:-17%;*/
-    animation-name: nameh1;
+    /*animation-name: nameh1;
     animation-duration: 2s;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease-in;*/
     border-bottom: 4px solid white;
 }
 
@@ -263,9 +263,9 @@ i.material-icons {
     text-align: center;
     font-size: 300%;
     color:white;
-    animation-name: nameh2;
+    /*animation-name: nameh2;
     animation-duration: 2s;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease-in;*/
 }
 
 /* Start of h1 and h2 animations */
@@ -411,6 +411,16 @@ h4 {
 
 .indicator-item {
     background-color: #C4C7CA !important;
+}
+.slider {
+    width:100%;
+    height: 40px;
+}
+.project {
+ width: 100%;
+    max-height: 100%;
+    color: black;
+    background-color: white;
 }
 /* END OF PROJECTS SECTION */
 
