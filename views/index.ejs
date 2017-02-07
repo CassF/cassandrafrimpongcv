@@ -13,267 +13,320 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
     <!-- Import animate css -->
     <link rel="stylesheet" type="text/css" href="css/animations.css">
-    <!-- Import Font Awesome -->
-    <!--<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">-->
-    <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
     <!-- Import my custom index stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/index.css">
 
 </head>
 
 <body onload="myFunction()" style="margin:0;">
-    <!-- Start of preloader -->
-    <div id="loader">
-        <div class="spinner">
-            <div class="sk-folding-cube">
-                <div class="sk-cube1 sk-cube"></div>
-                <div class="sk-cube2 sk-cube"></div>
-                <div class="sk-cube4 sk-cube"></div>
-                <div class="sk-cube3 sk-cube"></div>
+<!-- Start of preloader -->
+<div id="loader">
+    <div class="spinner">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+        <div id="name">
+            Cassandra Frimpong
+        </div>
+    </div>
+</div>
+<!-- End of preloader -->
+<div id="mainPage" style="display:none;" class="animate-bottom">
+<!-- Start of banner -->
+<div class="banner">
+    <h1>Cassandra Frimpong</h1>
+    <h2><strong> WEB DEVELOPER</strong></h2>
+</div>
+<!-- End of Banner -->
+<!-- Start of header -->
+<header>
+    <!-- Start of navbar -->
+    <nav role="navigation">
+        <div class="nav-wrapper">
+            <ul class="hide-on-med-and-down">
+                <li><a class="scrollspy" href="#profile">Profile</a></li>
+                <li><a class="scrollspy" href="#projects">Projects</a></li>
+                <li><a class="scrollspy" href="#experience">Experience</a></li>
+                <li><a class="scrollspy" href="#contact">Contacts</a></li>
+            </ul>
+            <ul class="side-nav" id="nav-mobile">
+                <li><a class="scrollspy" href="#profile">Profile</a></li>
+                <li><a class="scrollspy" href="#projects">Projects</a></li>
+                <li><a class="scrollspy" href="#experience">Experience</a></li>
+                <li><a class="scrollspy" href="#contact">Contacts</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    <!-- End of navbar -->
+</header>
+<!-- End of header -->
+<!-- Start of Profile section -->
+<section class="section">
+    <div class="row animatedParent animateOnce">
+        <h3 id="profile">Profile</h3>
+        <div class="col s6 animated fadeInLeft">
+            <img src="images/BioPic.jpg" alt="" class="bio responsive-img">
+            <h4>Bio</h4>
+            <p class ="biotxt">Hi. I'm Cassandra; a web designer and developer who takes pride in writing clean and functional code in order to develop creative responsive websites.</p>
+            <!--<p class ="biotxt">I am a web designer and developer who takes pride in writing clean and functional code in order to develop creative responsive websites.</p>-->
+            <!--<p><em><i class="fa baking fa-star-o" aria-hidden="true"></i></p>-->
+        </div>
+        <div class="col s6">
+            <h4> Skillset</h4>
+            <div class="projcontainer">
+                <div class="content">
+                    <ul id="skill">
+                        <li><span class="expand html"></span><em>HTML5</em></li>
+                        <li><span class="expand js"></span><em>JavaScript</em></li>
+                        <li><span class="expand nr"></span><em>Node.js</em></li>
+                        <li><span class="expand wd"></span><em>MongoDB</em></li>
+                        <li><span class="expand vc"></span><em>SQL</em></li>
+                        <li><span class="expand pa"></span><em>CSS3</em></li>
+                        <li><span class="expand pt"></span><em>Practical Testing</em></li>
+                        <li class="baking"><em><i class="fa fa-star-o" aria-hidden="true"></i> Baking</em></li>
+                    </ul>
+                </div>
             </div>
-            <div id="name">
-                Cassandra Frimpong
+        </div>
+</section>
+<!-- End of Skillbar section -->
+<!-- Start of Projects section -->
+<section class="section ">
+    <h3 id="projects"> Projects </h3>
+    <div class="row animatedParent animateOnce projectrow">
+        <div class="col s6 animated fadeInRight project">
+            <div class=" project-hover">
+                <img src="Images/Blackjack.png">
+                <a href="#modal1">
+                    <div class="project-overlay">
+                        <h2>
+                            Blackjack
+                        </h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Modal Structure 1-->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Blackjack</h4>
+                <p>Worked within a team as a Back-end developer to create an online Blackjack website, using technologies such
+                    as Node.js, Vue.js and MongoDB. </p>
+                <img src="Images/blackjackm.png" style="display: block; margin-left: auto; margin-right: auto;">
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+            </div>
+        </div>
+        <div class="col s6 animated fadeInLeft project">
+            <div class=" project-hover">
+                <img src="Images/flikshowplace.png">
+                <a href="#modal2">
+                    <div class="project-overlay">
+                        <h2>
+                            Flikshow
+                        </h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Modal Structure 2-->
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <h4>Flikshow</h4>
+                <p>Flikshow allow users to search for images on Flickr which are then pulled down and plotted on a google map
+                    according to where the image was posted in the world.</p>
+                <p>Flikshow developed using Node.js, HTML5, CSS, and EJS.</p>
+                <p>Play around with Flikshow <a target="_blank" href="https://flikshow.herokuapp.com/">here</a></p>
+                <img src="Images/flikshowm.png" alt="Flikshow" style="display: block; margin-left: auto; margin-right: auto;">
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
             </div>
         </div>
     </div>
-    <!-- End of preloader -->
-    <div id="mainPage" style="display:none;" class="animate-bottom">
-        <!-- Start of banner -->
-        <div class="banner">
-            <!--<img src ="Images/Pastel2.jpg" alt="" >-->
-            <h1>Cassandra Frimpong</h1>
-            <h2><strong> WEB DEVELOPER</strong></h2>
+    <div class="row animatedParent animateOnce">
+        <div class="col s6 animated fadeInRight project">
+            <div class=" project-hover">
+                <img src="Images/scribbl1.png" alt="Scribbl">
+                <a href="#modal3">
+                    <div class="project-overlay">
+                        <h2>
+                            Scribbl
+                        </h2>
+                    </div>
+                </a>
+            </div>
         </div>
-        <!-- End of Banner -->
-        <!-- Start of header -->
-        <header>
-            <!-- Start of navbar -->
-            <!--<div class="navbar-fixed">
-                    <nav role="navigation">
-                        <div class="nav-wrapper">
-                            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                            <ul class="navToAppend">
-                                <li><a class="waves-effect waves-light scrollspy" href="#profile">Profile</a></li>
-                                <li><a class="waves-effect waves-light scrollspy" href="#projects">Projects</a></li>
-                                <li><a class="waves-effect waves-light scrollspy" href="#experience">Experience</a></li>
-                                <li><a class="waves-effect waves-light scrollspy" href="#contact">Contact</a></li>
-                            </ul>-->
-            <!--Mobile Navbar-->
-            <!--<ul id="mobile-demo" class="side-nav">
-                                <li><a class="scrollspy" href="#profile">Profile</a></li>
-                                <li><a class="scrollspy" href="#projects">Projects</a></li>
-                                <li><a class="scrollspy" href="#experience">Experience</a></li>
-                                <li><a class="scrollspy" href="#contact">Contacts</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>-->
-            <nav role="navigation">
-                <div class="nav-wrapper">
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul class="navToAppend">
-                        <li><a id="contactNav" href="#profile">Profile</a></li>
-                        <li><a id="projectsNav" href="#projects">Projects</a></li>
-                        <li><a id="educationNav" href="#experience">Experience</a></li>
-                        <li><a id="jobsNav" href="#contact">Contacts</a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li><a id="contactNav" href="#profile">Profile</a></li>
-                        <li><a id="projectsNav" href="#projects">Projects</a></li>
-                        <li><a id="educationNav" href="#experience">Experience</a></li>
-                        <li><a id="jobsNav" href="#contact">Contacts</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!-- End of header -->
-        <!-- Start of Profile section -->
-        <section class="section">
+        <!-- Modal Structure 3-->
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <h4>Scribbl</h4>
+                <p>Scribbl is a blogging platform that allows users to create, edit and delete blogs. 
+                    It also allows users to comment on various blogposts, as well as view the comments other users have left.</p>
+                <p>I am currently in the process of implementing a registration and login system so that users can enjoy the full uses of Scribbl.</p>
+                <p>Scribbl developed using Node.js, MongoDB, HTML5, CSS and EJS. Have a look at the code <a target"_blank" href="https://github.com/CassF/blogapp">here</a>.</p>
+
+                <img src="Images/scribblm.png" alt="Scribbl" style="display: block; margin-left: auto; margin-right: auto;">
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+            </div>
+        </div>
+        <div class="col s6 animated fadeInLeft project">
+            <div class=" project-hover">
+                <img src="Images/flikshowplace.png">
+                <a href="#modal4">
+                    <div class="project-overlay">
+                        <h2>
+                            Flikshow
+                        </h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Modal Structure 4 -->
+        <div id="modal4" class="modal">
+            <div class="modal-content">
+                <h4>Modal Header</h4>
+                <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Projects section -->
+<!-- Start of Experience section -->
+<section class="section" id="experience">
+    <h3>Experience</h3>
+    <div class="row container">
+        <div class="animatedParent animateOnce">
+            <div class="col s2 animated tada">
+                <i class="fa fa-suitcase fa-4x"></i>
+            </div>
+        </div>
+        <div class="animatedParent animateOnce">
+            <div id="expos" class="col s7 animated fadeInRight">
+                <h4 class="experience">Sparta global, Web developer consultant</h4>
+                <p>
+                    Currently working as a Web Developer at Sparta Global. I am in the process of completing a 12 week training course.
+                </p>
+                <hr>
+            </div>
+        </div>
+        <div class="animatedParent animateOnce">
+            <div class="col s3 animated fadeInLeft">
+                <h6><i class="fa fa-calendar fa-2x"></i> November 2016 - Present</h6>
+                <h6><i class="fa fa-map-marker fa-2x"></i> Richmond, London</h6>
+            </div>
+        </div>
+    </div>
+    <div class="row container">
+        <div class="animatedParent animateOnce">
+            <div class="col s2 animated tada">
+                <i class="fa fa-graduation-cap fa-4x"></i>
+            </div>
+        </div>
+        <div class="animatedParent animateOnce">
+            <div id="" class="col s7 animated fadeInRight">
+                <h4 class="experience">Bsc (Hons) Integrated Science, 1st</h4>
+                <p>
+                    During my degree I explored different areas within STEM. I have utilised my scientific background to develop a proactive
+                    analytical approach to problem solving that helps me to successfully design and develop web applications
+                    with a special and unique focus on the client’s aim.
+                </p>
+                <hr>
+            </div>
+        </div>
+        <div class="animatedParent animateOnce">
+            <div class="col s3 animated fadeInLeft">
+                <h6><i class="fa fa-calendar fa-2x"></i> September 2013 - July 2016</h6>
+                <h6><i class="fa fa-map-marker fa-2x"></i> University of Bradford </h6>
+            </div>
+        </div>
+    </div>
+    <div class="row container">
+        <div class="animatedParent animateOnce">
+            <a target="_blank" href="documents/cv.pdf" class=" btn animated bounceInUp " onclick="Materialize.toast('CV Downloaded', 3000)">
+<i class="fa fa-cloud-download"></i> Download CV
+</a>
+</div>
+</div>
+</section>
+<!-- End of Experience section -->
+<!-- Start of Contact section -->
+<section class="section greySection" id="contact">
+    <h3>Contact</h3>
+    <div class="row container">
+        <form class="col s12" method="POST" action="/contact">
             <div class="row">
-                <h3 id="profile">Profile</h3>
-                <div class="col s6">
-                    <img id="imgstyle" src="Images/BioPic.jpg" alt="" />
-                    <h4>Bio</h4>
-                    <p></p>
+                <div class="input-field col s6">
+                    <input placeholder="First Name" name="firstName" id="firstName" type="text" class="validate" required>
+                    <label for="firstName">First Name</label>
                 </div>
-                <div class="col s6">
-                    <h4> Skillset</h4>
-                    <div class="projcontainer">
-                        <div class="content">
-                            <ul id="skill">
-                                <li><span class="expand html"></span><em>HTML5</em></li>
-                                <li><span class="expand js"></span><em>JavaScript</em></li>
-                                <li><span class="expand nr"></span><em>Node.js</em></li>
-                                <li><span class="expand wd"></span><em>Web Design and IA</em></li>
-                                <li><span class="expand vc"></span><em>Version Control, APIs</em></li>
-                                <li><span class="expand pa"></span><em>Practical Agile</em></li>
-                                <li><span class="expand pt"></span><em>Practical Testing</em></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <!-- End of Skillbar section -->
-        <!-- Start of Projects section -->
-        <section class="section row greySection">
-            <h3 id="projects">Projects</h3>
-            <div class="slider">
-                <ul class="slides">
-                    <li>
-                        <!-- Scribbl -->
-                        <img src="Images/Scribbl.png">
-                        <div class="caption center-align">
-                            <h4 class = "project">Scribbl</h4>
-                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                        </div>
-                    </li>
-                    <li>
-                        <!-- Flikshow -->
-                        <img src="Images/flikr.png">
-                        <div class="caption left-align">
-                            <h4 class = "project left-align">Flikshow <i class="fa fa-eye" aria-hidden="true" target="_blank" href ="https://flikshow.herokuapp.com/"></i> </h4>
-                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                        </div>
-                    </li>
-                    <!--<li>
-                        <img src="Images/flikshow2.png">
-                        <div class="caption right-align project">
-                            <h3>Right Aligned Caption</h3>
-                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="http://lorempixel.com/580/250/nature/4">
-                        <div class="caption center-align project">
-                            <h3>This is our big Tagline!</h3>
-                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                        </div>
-                    </li>-->
-                </ul>
-            </div>
-        </section>
-        <!-- End of Projects section -->
-        <!-- Start of Experience section -->
-        <section class="section" id="experience">
-            <h3>Experience</h3>
-            <div class="row container">
-                <div class="animatedParent">
-                    <div class="col s2 animated tada">
-                        <i class="fa fa-suitcase fa-4x"></i>
-                    </div>
-                </div>
-                <div class="animatedParent">
-                    <div id="expos" class="col s7 animated fadeInRight">
-                        <h4 class="experience">Sparta global, Web developer consultant</h4>
-                        <p>
-                            Currently working as a Web Developer at Sparta Global. I am in the process of completing a 12 week training course.
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="animatedParent">
-                    <div class="col s3 animated fadeInLeft">
-                        <h6><i class="fa fa-calendar fa-2x"></i> November 2016 - Present</h6>
-                        <h6><i class="fa fa-map-marker fa-2x"></i> Richmond, London</h6>
-                    </div>
+                <div class="input-field col s6">
+                    <input placeholder="Last Name" name="lastName" id="lastName" type="text" class="validate" required>
+                    <label for="lastName">Last Name</label>
                 </div>
             </div>
-            <div class="row container">
-                <div class="animatedParent">
-                    <div class="col s2 animated tada">
-                        <i class="fa fa-graduation-cap fa-4x"></i>
-                    </div>
-                </div>
-                <div class="animatedParent">
-                    <div id="" class="col s7 animated fadeInRight">
-                        <h4 class="experience">Bsc (Hons) Integrated Science, 1st</h4>
-                        <p>
-                            During my degree I explored different areas within STEM. I have utilised my scientific background to develop a proactive
-                            analytical approach to problem solving that helps me to successfully design and develop web applications
-                            with a special and unique focus on the client’s aim.
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="animatedParent">
-                    <div class="col s3 animated fadeInLeft">
-                        <h6><i class="fa fa-calendar fa-2x"></i> September 2013 - July 2016</h6>
-                        <h6><i class="fa fa-map-marker fa-2x"></i> University of Bradford </h6>
-                    </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Email" name="email" id="email" type="email" class="validate" required>
+                    <label for="email">Email</label>
                 </div>
             </div>
-            <div class="row container">
-                <div class="animatedParent">
-                    <a target="_blank" href="documents/cv.pdf" class=" btn animated bounceInUp " onclick="Materialize.toast('CV Downloaded', 3000)">
-                        <i class="fa fa-cloud-download"></i> Download CV
-                    </a>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Message" name="message" id="message" type="text" class="validate" required>
+                    <label for="message">Message</label>
                 </div>
             </div>
-        </section>
-        <!-- End of Experience section -->
-        <!-- Start of Contact section -->
-        <section class="section greySection" id="contact">
-            <h3>Contact</h3>
-            <div class="row container">
-                <form class="col s12" method="POST" action="/contact">
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <input placeholder="First Name" name="firstName" id="firstName" type="text" class="validate" required>
-                            <label for="firstName">First Name</label>
-                        </div>
-                        <div class="input-field col s6">
-                            <input placeholder="Last Name" name="lastName" id="lastName" type="text" class="validate" required>
-                            <label for="lastName">Last Name</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input placeholder="Email" name="email" id="email" type="email" class="validate" required>
-                            <label for="email">Email</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input placeholder="Message" name="message" id="message" type="text" class="validate" required>
-                            <label for="message">Message</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="animatedParent">
-                            <button class="btn animated bounceInUp" type="submit" name="action" onclick="Materialize.toast('Thank you! Your message has sent.', 3000)">
-                                <i class = "fa fa-envelope-o"></i>
-                                Send Message
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
-        <!-- Start of Footer -->
-        <footer class="page-footer">
-            <div class="row footerRow">
-                <div class="col s6 copyright">
-                    © 2016 CASSANDRA FRIMPONG.
-                </div>
-                <div class="col s6">
-                    <div class="icons">
-                        <a href="https://github.com/CassF"><i class ="fa fa-github-square fa-3x"></i></a>
-                        <a href=""><i class="fa fa-instagram fa-3x"></i></a>
-                        <a href=""><i class="fa fa-twitter-square fa-3x"></i></a>
-                        <a href=""><i class="fa fa-linkedin-square fa-3x"></i></a>
-                        <a href=""><i class="fa fa-medium fa-3x"></i></a>
-                    </div>
+            <div class="row">
+                <div class="animatedParent animateOnce">
+                    <button class="btn animated bounceInUp" type="submit" name="action" onclick="Materialize.toast('Thank you! Your message has sent.', 3000)">
+                        <i class="fa fa-envelope-o"></i> Send Message
+                    </button>
                 </div>
             </div>
-        </footer>
-        <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-        <!-- Import CSS animation script -->
-        <script src="js/css3-animate-it.js"></script>
-        <script src="https://use.fontawesome.com/add6c7c4be.js"></script>
-        <!-- Import my personal stylesheet -->
-        <script src="js/index.js"></script>
+        </form>
+    </div>
+    <!-- Back to top -->
+<a href="#" class="go-top"><i class="fa fa-3x fa-chevron-up " aria-hidden="true"></i></a>
+</section>
+<!-- Start of Footer -->
+<footer class="page-footer">
+    <div class="row footerRow">
+        <div class="col s6 copyright">
+            © 2016 CASSANDRA FRIMPONG.
+        </div>
+        <div class="col s6">
+            <div class="icons">
+                <a target="_blank" href="https://github.com/CassF"><i class ="fa fa-github-square fa-3x"></i></a>
+                <!--<a href=""><i class="fa fa-instagram fa-3x"></i></a>-->
+                <a href=""><i class="fa fa-twitter-square fa-3x"></i></a>
+                <a target="_blank" href="https://uk.linkedin.com/in/cassandra-frimpong-010344123"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                <a target="_blank" href="https://medium.com/@CassF"><i class="fa fa-medium fa-3x"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<!-- Import CSS animation script -->
+<script src="js/css3-animate-it.js"></script>
+<!--<script type="text/javascript" src="js/aos.js"></script>-->
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script src="https://use.fontawesome.com/add6c7c4be.js"></script>
+<!-- Import my personal stylesheet -->
+<script src="js/index.js"></script>
+</div>
 </body>
 
 </html>
