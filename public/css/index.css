@@ -16,8 +16,7 @@
 }
 /* Main components */
 p {
-    /*font-family: 'Arvo', serif;*/
-    font-family: "Roboto", sans-serif;
+        font-family:'Droid Sans', sans-serif;
     color: black;
     font-size: 120%;
     text-align: justify;
@@ -331,7 +330,7 @@ p.biotxt {
     font-size: 1.5rem;
     font-family:'Droid Sans', sans-serif;
     font-weight: 100;
-    	color:#94979C; 
+    color:#94979C; 
 }
 #imgstyle {
     width: 45%;
@@ -525,6 +524,9 @@ p.biotxt {
     text-align: left;
 }
 
+.experience p {
+    font-family:'Droid Sans', sans-serif;
+}
 /* Download and contact me button */
 .btn, .btn-large {
     text-decoration: none;
