@@ -740,8 +740,14 @@ h3 {
 .banner h2 {
     font-size: 156%;
 }
+.skillSection {
+    width: 100% !important;
+}
+.profileSection {
+    width: 100% !important;
+}
 .project {
-    height: 200px;
+    height: 400px;
     /*background-color:#FAF6F9;*/
     padding: 0;
     width: 100% !important;
