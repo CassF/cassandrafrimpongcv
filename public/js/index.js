@@ -33,12 +33,12 @@ $( document ).ready(function(){
 /* Preloader */
 let myVar;
 
-// function myFunction() {
-//     myVar = setTimeout(showPage, 1300);
-// }
+function myFunction() {
+    myVar = setTimeout(showPage, 1300);
+}
 
 function showPage() {
-//   document.getElementById("loader").style.display = "none";
+  document.getElementById("loader").style.display = "none";
   document.getElementById("mainPage").style.display = "block";
 }
 /* Side Nav */
