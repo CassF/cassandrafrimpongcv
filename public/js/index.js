@@ -38,7 +38,7 @@ let myVar;
 // }
 
 function showPage() {
-  document.getElementById("loader").style.display = "none";
+//   document.getElementById("loader").style.display = "none";
   document.getElementById("mainPage").style.display = "block";
 }
 /* Side Nav */
