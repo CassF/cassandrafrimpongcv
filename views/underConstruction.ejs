@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> CF | Web Developer </title>
+    <link rel="shortcut icon" href="/myIcon.ico" type="image/x-icon">
+    <link rel="icon" href="/myIcon.ico" type="image/x-icon">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <!-- Import animate css -->
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <!-- Import my custom index stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/underConstruction.css">
+</head>
+
+<body>
+<!-- Start of banner -->
+<div class="banner">
+    <h1>Cassandra Frimpong</h1>
+    <h2><strong> UNDER CONSTRUCTION</strong></h2>
+</div>
+<!-- End of Banner -->
+<!-- Start of Contact section -->
+<section class="section" id="contact">
+    <div class="row container">
+        <h3>Contact</h3>
+        <form class="col s12" method="POST" action="/contact">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input placeholder="First Name" name="firstName" id="firstName" type="text" class="validate" required>
+                    <label for="firstName">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input placeholder="Last Name" name="lastName" id="lastName" type="text" class="validate" required>
+                    <label for="lastName">Last Name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Email" name="email" id="email" type="email" class="validate" required>
+                    <label for="email">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Message" name="message" id="message" type="text" class="validate" required>
+                    <label for="message">Message</label>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <button class="btn" type="submit" name="action" onclick="Materialize.toast('Thank you! Your message has sent.', 3000)">
+                        <i class="fa fa-envelope-o"></i> Send Message
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- Back to top -->
+<a href="#" class="go-top"><i class="fa fa-3x fa-chevron-up " aria-hidden="true"></i></a>
+</section>
+<!-- Start of Footer -->
+<footer class="page-footer">
+    <div class="row footerRow">
+        <div class="col s6 copyright">
+            © 2016 CASSANDRA FRIMPONG.
+        </div>
+        <div class="col s6">
+            <div class="icons">
+                <a target="_blank" href="https://github.com/CassF"><i class ="fa fa-github-square fa-3x"></i></a>
+                <!--<a href=""><i class="fa fa-instagram fa-3x"></i></a>-->
+                <a href=""><i class="fa fa-twitter-square fa-3x"></i></a>
+                <a target="_blank" href="https://uk.linkedin.com/in/cassandra-frimpong-010344123"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                <a target="_blank" href="https://medium.com/@CassF"><i class="fa fa-medium fa-3x"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<!-- Import CSS animation script -->
+<script src="js/css3-animate-it.js"></script>
+<!--<script type="text/javascript" src="js/aos.js"></script>-->
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script src="https://use.fontawesome.com/add6c7c4be.js"></script>
+<!-- Import my personal stylesheet -->
+<script src="js/index.js"></script>
+</body>
+
+</html>
