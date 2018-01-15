@@ -14,6 +14,10 @@
     font-family: "Vanadine";
     src: url('../fonts/vanadine/VanadineBold.ttf'); 
 }
+@font-face {
+    font-family: "Raleway";
+    src: url('../fonts/raleway/Raleway-Light.ttf'); 
+}
 /* Main components */
 p {
         font-family:'Droid Sans', sans-serif;
@@ -235,19 +239,19 @@ i.material-icons {
     width: 100%; 
     font-family: "Stackyard";
     font-size: 1200%; 
-    color:#FFB236;
+    color:#ffffff;
     text-align: center;
-    border-bottom: 4px solid #D32E5E;
+    /* border-top: 4px solid #D32E5E; */
+    border-bottom: 4px solid #ffffff;
 }
 
 .banner h2 {
-    font-family: "Vanadine";
-    color:black;
+    font-family: "Raleway";
     margin-top:-1%;
     position:relative; 
     text-align: center;
     font-size: 300%;
-    color:#FF770D;
+    color:#ffffff;
 }
 
 /* Start of h1 and h2 animations */
@@ -271,8 +275,9 @@ i.material-icons {
 h3 {
     color:#C4C7CA;
     text-align: left;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: "Stackyard";
+    font-family: "Raleway";
     padding-bottom: 4%;
     padding-left: 1%;
 }
@@ -628,7 +633,7 @@ a {
 footer.page-footer {
     /*background-image: url(../Images/FooterPastel.jpg);*/
     margin-top: 0;
-    background-color: #FAF6F9;
+    background-color: white;
     border-top: 2px solid #C4C7CA;
     width: 100%;
     background-size: 100% 100%;
