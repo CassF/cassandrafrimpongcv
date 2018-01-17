@@ -26,8 +26,8 @@ p {
 .footerRow {
     margin-bottom: 0 !important;
 }
-.section {
-    padding-bottom: 1rem;
+.firstSection {
+    padding-top: 64px;
 }
 
 
@@ -50,7 +50,7 @@ nav ul li a {
     /* color: #5F4B8B; */
     text-align: center;
     font-family: "Raleway";
-    font-size: 170%;
+    font-size: 150%;
 }
 
 nav ul li a:hover {
@@ -104,7 +104,7 @@ h3 {
 
 h4 {
     color:#C4C7CA;
-    font-family: "Vanadine";
+    font-family: "Raleway";
     text-transform: uppercase;
     font-size: 200%;
     text-align: center;
@@ -246,6 +246,12 @@ p.biotxt {
     height: 400px;
     /*background-color:#FAF6F9;*/
     padding: 0 !important;
+    border-top: 5px solid #FEB236;
+    border-bottom: 5px solid #FEB236;
+    border-left: 5px solid #FEB236;
+}
+.lastProject {
+    border-right: 5px solid #FEB236;
 }
 .projectrow {
     margin-bottom: 0;
@@ -284,6 +290,7 @@ p.biotxt {
 }
 
 .project-hover:hover img {
+    color: blue;
     opacity: 0.4;
     filter: alpha(opacity=40);
     -webkit-transform: translate3d(0,0,0);
@@ -369,8 +376,8 @@ input[type=tel]:focus:not([readonly]),
 input[type=number]:focus:not([readonly]),
 input[type=search]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #5F4B8B!important;
-    box-shadow: 0 1px 0 0 #5F4B8B !important;
+    border-bottom: 1px solid #FF770D!important;
+    box-shadow: 0 1px 0 0 #FF770D !important;
 }
 
 input:not([type]):focus:not([readonly]) + label,
@@ -386,7 +393,7 @@ input[type=tel]:focus:not([readonly]) + label,
 input[type=number]:focus:not([readonly]) + label,
 input[type=search]:focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-    color: #5F4B8B;
+    color: #FF770D;
 }
 
 input:not([type]).valid, input:not([type]):focus.valid, 
@@ -404,7 +411,7 @@ input[type=number].valid, input[type=number]:focus.valid,
 input[type=search].valid, input[type=search]:focus.valid, 
 textarea.materialize-textarea.valid, 
 textarea.materialize-textarea:focus.valid {
-    border-bottom: 1px solid #5F4B8B;
+    border-bottom: 1px solid #FF770D;
     box-shadow: 0 1px 0 0 #B4B7B9;
 }
 
