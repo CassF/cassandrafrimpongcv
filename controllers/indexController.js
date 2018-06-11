@@ -1,6 +1,6 @@
 class Index {
     static showIndex(req,res){
-        res.render("underConstruction");
+        res.render("index");
     }
 }
 
