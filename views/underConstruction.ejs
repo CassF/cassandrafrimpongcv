@@ -19,97 +19,175 @@
 
 <body>
     <!-- Navbar -->
-    <div class="navbar-fixed">
+    <div>
         <nav>
             <div>
-                <a href="#" class="brand-logo">Logo</a>
+                <a class="brand-logo">CASSANDRA FRIMPONG</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
+                    <li><a class="scrollspy" href="#profile">PROFILE</a></li>
+                    <li><a class="scrollspy" href="#services">SERVICES</a></li>
+                    <li><a class="scrollspy" href="#projects">PROJECTS</a></li>                    
+                    <li><a class="scrollspy" href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </nav>
     </div>
     <!-- BIO -->
-    <section class="pinkSection">
-        <div class="row container">
-            <div class="col s6">
-                <img src="Images/CitrusBanner.jpg" alt="" class="bio responsive-img">
+    <section class="pinkSection center-align">
+        <div class="row container" id="profile">
+            <div class="col s12 m6">
+                <img src="Images/Bio.JPG" alt="" class="bio">
             </div>
-            <div class="col s6">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua.
+            <div class="col s12 m6" style="padding-top: 30px;">
+                <p class="left-align">
+                    Hi, I'm Cassandra Frimpong. <br>
+                    I'm a software developer based in London GB.<br>
+                    I currently work as a full stack developer at Canada Life, where I mostly write C# and Javascript.<br>
+                    I enjoy learning and sharing my knowledge through teaching, in my spare time I volunteer at Code First: Girls as an instructor. 
                 </p>
             </div>
         </div>
     </section>
 
     <!-- Services -->
-    <section class="blueSection">
-        <div class="row container">
-                <div class="col s3">
-                    <!-- <img class="imagesServices" src="Images/CitrusBanner.jpg" /> -->
-                    <i class="large material-icons">insert_chart</i>
-                    <h5>Test</h5>
+    <section class="blueSection center-align">
+        <div class="row container" id="services">
+                <div class="col s12 m4 l4">
+                     <img class="imagesServices" src="Images/Wireframe.png" /> 
+                    <h5>UI DESIGN</h5>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+I design user interfaces for both businesses & individuals websites and mobile apps to be clean, enganging and consistent that achieve both simplicity and usability. I focus on the detail, to create you the perfect site.                    </p>
+                </div>
+                <div class="col s12 m4 l4">
+                     <img class="imagesServices" src="Images/Devices.png" /> 
+                    <h5>RESPONSIVE DESIGN</h5>
+                    <p>
+                        I design websites to a grid - to ensure your design looks great on any sized device, from a mobile to a desktop, effectively creating one website for all sizes - a multi-device experience.
                     </p>
                 </div>
-                <div class="col s3">
-                    <!-- <img class="imagesServices" src="Images/CitrusBanner.jpg" /> -->
-                    <i class="large material-icons">insert_chart</i>
-                    <h5>Test</h5>
+                <div class="col s12 m4 l4">
+                    <img class="imagesServices" src="Images/Responsive.png" />
+                    <h5>WEB DEVELOPMENT</h5>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        It’s important that your website performs as well as it looks. I build clean websites that perform brilliantly, are fast, smooth and fluid making for a better user experience.
                     </p>
                 </div>
-                <div class="col s3">
+                <!--<div class="col s3">
                     <img class="imagesServices" src="Images/CitrusBanner.jpg" />
                     <h5>Test</h5>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                </div>
-                <div class="col s3">
-                    <img class="imagesServices" src="Images/CitrusBanner.jpg" />
-                    <h5>Test</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-            </div>
+            </div>-->
         </div>
         </div>
     </section>
-
+<!-- StartpinkSection of Projects section -->
+<section class="pinkSection ">
+    <!--<h5 id="projects"> PROJECTS </h5>-->
+    <div class="row animatedParent animateOnce projectrow" id="projects">
+        <div class="col s12 m4 animated fadeInRight project">
+            <div class=" project-hover">
+                <img src="Images/Blackjack.png">
+                <a href="#modal1">
+                    <div class="project-overlay">
+                        <h2>
+                            Blackjack
+                        </h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Modal Structure 1-->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Blackjack</h4>
+                <p>Worked within a team as a Back-end developer to create an online Blackjack website, using technologies such
+                    as Node.js, Vue.js and MongoDB. </p>
+                <img src="Images/blackjackm.png" style="display: block; margin-left: auto; margin-right: auto;">
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+            </div>
+        </div>
+        <div class="col s12 m4 animated fadeInLeft project">
+            <div class=" project-hover">
+                <img src="Images/flikshowplace.png">
+                <a href="#modal2">
+                    <div class="project-overlay">
+                        <h2>
+                            Flikshow
+                        </h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Modal Structure 2-->
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <h4>Flikshow</h4>
+                <p>Flikshow allow users to search for images on Flickr which are then pulled down and plotted on a google map
+                    according to where the image was posted in the world.</p>
+                <p>Flikshow developed using Node.js, HTML5, CSS, and EJS.</p>
+                <img src="Images/flikshowm.png" alt="Flikshow" style="display: block; margin-left: auto; margin-right: auto;">
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+            </div>
+        </div>
+        <div class="col s12 m4 animated fadeInRight project">
+            <div class=" project-hover">
+                <img src="Images/Blog.png" alt="Scribbl">
+                <a href="#modal3">
+                    <div class="project-overlay">
+                        <h2>
+                            Scribbl
+                        </h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Modal Structure 3-->
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <h4>Scribbl</h4>
+                <p>Scribbl is a blogging platform that allows users to create, edit and delete blogs. 
+                    It also allows users to comment on various blogposts, as well as view the comments other users have left.</p>
+                <p>Scribbl was developed using Node.js, MongoDB, HTML5, CSS and EJS.</p>
+                <img src="Images/scribblm.png" alt="Scribbl" style="display: block; margin-left: auto; margin-right: auto;">
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Projects section -->
 
     <!-- Start of Contact section -->
-    <section class="pinkSection" id="contact">
-        <div class="row container">
-            <h3>Contact</h3>
-            <form class="col s12" method="POST" action="/contact">
+    <section class="blueSection">
+        <div class="row container" id="contact">
+            <h5>GET IN TOUCH ...</h5>
+            <form class="col s12 contactSection" method="POST" action="/contact">
                 <div class="row">
-                    <div class="input-field col s6">
-                        <input placeholder="First Name" name="firstName" id="firstName" type="text" class="validate" required>
+                    <div class="input-field col s12 m6">
+                        <input placeholder="" name="firstName" id="firstName" type="text" class="validate" required>
                         <label for="firstName">First Name</label>
                     </div>
-                    <div class="input-field col s6">
-                        <input placeholder="Last Name" name="lastName" id="lastName" type="text" class="validate" required>
+                    <div class="input-field col s12 m6">
+                        <input placeholder="" name="lastName" id="lastName" type="text" class="validate" required>
                         <label for="lastName">Last Name</label>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s12">
-                        <input placeholder="Email" name="email" id="email" type="email" class="validate" required>
+                    <div class="input-field col s12 m12">
+                        <input placeholder="" name="email" id="email" type="email" class="validate" required>
                         <label for="email">Email</label>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s12">
-                        <input placeholder="Message" name="message" id="message" type="text" class="validate" required>
+                    <div class="input-field col s12 m12">
+                        <input placeholder="" name="message" id="message" type="text" class="validate" required>
                         <label for="message">Message</label>
                     </div>
                 </div>
@@ -129,15 +207,14 @@
     <footer class="page-footer">
         <div class="row footerRow">
             <div class="col s6 copyright">
-                © 2016 FIRSTNAME LASTNAME.
+                © 2016 CASSANDRA FRIMPONG.
             </div>
             <div class="col s6">
                 <div class="icons">
                     <a target="_blank" href="https://github.com/CassF"><i class ="fa fa-github-square fa-3x"></i></a>
-                    <!--<a href=""><i class="fa fa-instagram fa-3x"></i></a>-->
-                    <a href=""><i class="fa fa-twitter-square fa-3x"></i></a>
+                    <a target="_blank" href="https://twitter.com/CassRFY"><i class="fa fa-twitter-square fa-3x"></i></a>
                     <a target="_blank" href="https://uk.linkedin.com/in/cassandra-frimpong-010344123"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                    <a target="_blank" href="https://medium.com/@CassF"><i class="fa fa-medium fa-3x"></i></a>
+                    <!--<a target="_blank" href="https://medium.com/@CassF"><i class="fa fa-medium fa-3x"></i></a>-->
                 </div>
             </div>
         </div>

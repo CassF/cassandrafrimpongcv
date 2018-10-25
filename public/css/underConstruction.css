@@ -18,10 +18,12 @@
     font-family: "Raleway";
     src: url('../fonts/raleway/Raleway-Light.ttf'); 
 }
-/* Main components */
+
+/* MAIN COMPONENTS */
 p {
     font-family:'Droid Sans', sans-serif;
-    color: black;
+    font-family: "Raleway";
+    color: #503643;
     font-size: 120%;
     text-align: justify;
 }
@@ -30,81 +32,95 @@ p {
     margin-bottom: 0 !important;
 }
 
-/* .section {
-    padding-bottom: 1rem;
-} */
-
 .row {
     margin-bottom: 0 !important;
 }
 
 /* START OF NAVBAR */
 nav {
-    background-color:rgba(247, 202, 201, 0.5) !important;
-    /* width: 100%;
-    position: absolute !important;
-    border-bottom: 3px solid rgba(247, 202, 201, 0.5); */
+    background-color: rgba(247, 202, 201, 0.5) !important;
+    /*background-color:rgba(145, 168, 208, 0.3) !important;*/
+    border-bottom: 2px solid #503643;
     box-shadow: none!important;
 }
-
-/* 
-nav li {
-    width: 25% !important;
-    text-transform: uppercase;
+nav .brand-logo {
+    color: #503643;
+    font-family: "Raleway";
+    font-weight: bold;
+    
 }
 
 nav ul li a {
-    width: 100%;
-    color: #5F4B8B;
-    text-align: center;
-    font-family: "Vanadine";
-    font-size: 170%;
+    color: #503643;
+    font-family: "Raleway";
+    
 }
-
 nav ul li a:hover {
     font-weight: bold;
-    color: white;
 }
-i.material-icons {
-    color: grey;
-} */
 /* END OF NAVBAR */
 
 /* SECTIONS */
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .pinkSection {
     background-color: rgba(247, 202, 201, 0.5);
-    /* height: 2rem; */
 }
 
 .blueSection {
-    background-color: rgba(146, 168, 209, 0.5);
-    /* height: 2rem;     */
+    background-color: white;
 }
 
-/* START OF HEADING STYLES #C4C7CA */
+.contactSection {
+    margin-top: 10px;
+}
+
+/* START OF HEADING STYLES */
 h3 {
     color: rgba(198, 191, 184);
     text-align: left;
     font-size: 4rem;
-    font-family: "Stackyard";
     font-family: "Raleway";
-    /* padding-bottom: 4%; */
     margin-top: 0 !important;
     padding-left: 1%;
 }
 
 h4 {
     color: rgba(198, 191, 184);
-    font-family: "Vanadine";
+    font-family: "Raleway";
     text-transform: uppercase;
     font-size: 200%;
     text-align: center;
     font-weight: bold;
 }
+
+h5 {
+    color: #503643;
+    font-weight: bold;
+    font-family: "Raleway";
+}
+
+.contactH4{
+        color: #503643;
+    /*font-weight: bold;*/
+    font-family: "Raleway";
+}
+
+h3 {
+    color: #503643;
+    font-family: "Raleway";
+}
+
+label{
+    color: #503643;
+    font-family: "Raleway" !important;
+}
 /* END OF HEADING STYLES */
 
 /* START OF PROFILE SECTION */
-/* Profile section photo */
 .circle {
         width: 45%;
     height: 50%;
@@ -113,8 +129,8 @@ h4 {
     margin-right: auto; 
 }
 .bio {
-    width: 45%;
-    height: 70%;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -140,12 +156,12 @@ p.biotxt {
     margin: 0 auto 10px;
     text-align: center;
 }
-
 /* END OF PROFILE SECTION */
 
 /* START OF PROJECTS SECTION */
 .project {
-    height: 500px;
+    height: 350px;
+    /*border: 3px solid rgba(247, 202, 201, 0.5);*/
     /*background-color:#FAF6F9;*/
     padding: 0 !important;
 }
@@ -231,44 +247,16 @@ p.biotxt {
 }
 /* END OF PROJECTS SECTION */
 
-/* START OF EXPERIENCE */
-.experience {
-    text-align: left;
-}
-
-.experience p {
-    font-family:'Droid Sans', sans-serif;
-}
-/* Download and contact me button */
-.btn, .btn-large {
-    text-decoration: none;
-    color: #fff;
-    background-color: #C6BFB8;
-    text-align: center;
-    letter-spacing: .5px;
-    transition: .2s ease-out;
-    cursor: pointer;
-    margin-left: 35%;
-}
-
-.btn:hover, .btn-large:hover {
-    background-color: #C4C7CA;
-}
-/* END OF EXPERIENCE */
-
-
 /* SKILLS */
 .imagesServices{
     border-radius: 50%;
-    /* display: inline; */
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 
 
 /* START OF CONTACT SECTION */
-/* START OF INPUT FIELDS */   
 input:not([type]):focus:not([readonly]),
 input[type=text]:focus:not([readonly]),
 input[type=password]:focus:not([readonly]),
@@ -326,14 +314,28 @@ textarea.materialize-textarea:focus.valid {
     position: absolute;
     top: 0.8rem;
     left: 0;
-    font-size: 400px;
+    font-size: 500px;
     cursor: text;
-    /* transition: .2s ease-out; */
     font-family: "Vanadine";
 }
-/* END OF INPUT FIELDS */  
-
 /* END OF CONTACT SECTION */
+
+/* BUTTONS */
+/* Download and contact me button */
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: #503643;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    margin-left: 35%;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #C4C7CA;
+}
 
 /* Top Button */
 .go-top {
@@ -341,17 +343,13 @@ textarea.materialize-textarea:focus.valid {
 	bottom: 7em;
 	right: 2em;
     border-radius: 50%;
-	/*text-decoration: none;
-	color: white;*/
-	/*background-color: rgba(0, 0, 0, 0.3);
-	font-size: 12px;*/
 	padding: 1em;
 	display: none;
     opacity: 10;
 }
 
 .fa-chevron-up {
-    color: #C6BFB8;
+    color: #503643;
 }
 
 .fa-chevron-up:hover {
@@ -361,38 +359,39 @@ a {
     color: #C6BFB8;
 }
 /* End of Top Button */ 
+/* END OF BUTTONS */
 
 /* START OF FOOTER */
 footer.page-footer {
-    /*background-image: url(../Images/FooterPastel.jpg);*/
     margin-top: 0;
-    background-color: white;
-    border-top: 2px solid #C4C7CA;
+    /*background-color:rgba(145, 168, 208, 0.3) !important;*/
+    background-color: rgba(247, 202, 201, 0.5) !important;
+    
+    border-top: 2px solid #503643;
     width: 100%;
-    background-size: 100% 100%;
     height: 100%;
 
 }
 /* Start of icons styling */
 .fa-github-square {
-    color: #C6BFB8;
+    color: #503643;
     margin-left: 1%;
 }
 
 .fa-twitter-square {
-    color: #C6BFB8;
+    color: #503643;
 }
 
 .fa-linkedin-square {
-    color: #C6BFB8;
+    color: #503643;
 }
 
 .fa-instagram {
-    color: #C6BFB8;
+    color: #503643;
 }
 
 .fa-medium {
-    color: #C6BFB8;
+    color: #503643;
 }
 
 .icons {
@@ -404,80 +403,10 @@ footer.page-footer {
 
 /* Copyright */
 .copyright {
-    color: #C6BFB8;
-    font-family: "Vanadine";
+    color: #503643;
+    font-family: "Raleway";
     transform: uppercase;
     font-size: 1.5rem;
     margin-top: 3%;
 }
 /* END OF FOOTER */
-
-/* START OF MEDIA QUERIES */
-
-/* @media only screen and (max-width: 780px) {
-.navbar-wrapper {
-     width: 100%;
-     position: absolute;
-        z-index: 1;
-}
-.banner {
-    position: relative;
-    height: auto;
-    width: 100%;
-}
-h3 {
-      font-size: 400%;   
-}
-
-.banner h1 {
-    position:relative;
-    font-size: 500%; 
-}
-.banner h2 {
-    font-size: 156%;
-}
-.skillSection {
-    width: 100% !important;
-}
-.profileSection {
-    width: 100% !important;
-}
-.project {
-    height: 400px;
-    padding: 0;
-    width: 100% !important;
-}
-#profile {
-    margin-top:10%;
-    padding-bottom: 1%;
-}
-fa-3x {
-    font-size: 1em;
-}
-} */
-
-/* @media only screen and (min-width: 781px) and (max-width: 1145px){
-.navbar-wrapper {
-     width: 100%;
-     position: absolute;
-}
-.banner {
-    position: relative;
-    height: auto;
-    width:100%;
-}
-h3 {
-    font-size: 500%;   
-}
-.banner h1 {
-    position:relative;
-    font-size: 700%; 
-}
-.banner h2 {
-    font-size: 250%;
-}
-fa-3x {
-    font-size: 2em;
-}
-} */
-/* END OF MEDIA QUERIES */ 
