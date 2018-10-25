@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> CF | Web Developer </title>
+    <link rel="shortcut icon" href="/myIcon.ico" type="image/x-icon">
+    <link rel="icon" href="/myIcon.ico" type="image/x-icon">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <!-- Import animate css -->
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <!-- Import my custom index stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/newIndex.css">
+</head>
+
+<body>
+    <!-- Start of banner -->
+    <div class="banner">
+        <h1>Testing Typecast</h1>
+    </div>
+    <!--End of banner-->
+    <header>
+        <!-- Start of navbar -->
+        <nav>
+            <div class="nav-wrapper">
+                <ul class="hide-on-med-and-down">
+                    <li><a class="scrollspy" href="#profile">Profile</a></li>
+                    <li><a class="scrollspy" href="#projects">Projects</a></li>
+                    <li><a class="scrollspy" href="#experience">Experience</a></li>
+                    <li><a class="scrollspy" href="#contact">Contact</a></li>
+                </ul>
+                <ul class="side-nav" id="nav-mobile">
+                    <li><a class="scrollspy" href="#profile">Profile</a></li>
+                    <li><a class="scrollspy" href="#projects">Projects</a></li>
+                    <li><a class="scrollspy" href="#experience">Experience</a></li>
+                    <li><a class="scrollspy" href="#contact">Contact</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        <!-- End of navbar -->
+    </header>
+    <!-- <section>
+        <div class="row">
+            <h3 id="profile">Profile</h3>
+            <div class="col s6 profileSection">
+                <h4>Bio</h4>
+                <p class="biotxt">Hi. I'm Cassandra; a web designer and developer who takes pride in writing clean and functional code in order
+                    to develop creative responsive websites.</p>
+            </div>
+            <div class="col s6 skillSection">
+                <h4> Skillset</h4>
+                <div class="projcontainer">
+                    <div class="content">
+                        <ul id="skill">
+                            <li><span class="expand html"></span><em>HTML5</em></li>
+                            <li><span class="expand js"></span><em>JavaScript</em></li>
+                            <li><span class="expand nr"></span><em>Node.js</em></li>
+                            <li><span class="expand wd"></span><em>MongoDB</em></li>
+                            <li><span class="expand vc"></span><em>SQL</em></li>
+                            <li><span class="expand pa"></span><em>CSS3</em></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--Start of Projects-->
+    <section class="projectSection">
+        <div class="row">
+            <!-- PROJECT 1-->
+            <div class="col s4 project">
+                <div class=" project-hover">
+                    <img src="Images/flikshowplace.png">
+                    <a href="#modal1">
+                        <div class="project-overlay">
+                            <h2>
+                                Flikshow
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Modal Structure 1-->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4>Flikshow</h4>
+                    <p>Flikshow allow users to search for images on Flickr which are then pulled down and plotted on a google
+                        map according to where the image was posted in the world.</p>
+                    <p>Flikshow developed using Node.js, HTML5, CSS, and EJS.</p>
+                    <p>Play around with Flikshow <a target="_blank" href="https://flikshow.herokuapp.com/">here</a></p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+                </div>
+            </div>
+            <!--PROJECT 2-->
+            <div class="col s4 project">
+                <div class=" project-hover">
+                    <img src="Images/blackjackm.png">
+                    <a href="#modal2">
+                        <div class="project-overlay">
+                            <h2>
+                                Blackjack
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Modal Structure 2-->
+            <div id="modal2" class="modal">
+                <div class="modal-content">
+                    <h4>Blackjack</h4>
+                    <p>Worked within a team as a Back-end developer to create an online Blackjack website, using technologies
+                        such as Node.js, Vue.js and MongoDB. </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+                </div>
+            </div>
+            <!--PROJECT 3-->
+            <div class="col s4 project">
+                <div class=" project-hover">
+                    <img src="Images/scribbl1.png">
+                    <a href="#modal3">
+                        <div class="project-overlay">
+                            <h2>
+                                Scribbl
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Modal Structure 3-->
+            <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <h4>Scribbl</h4>
+                    <p>Scribbl is a blogging platform that allows users to create, edit and delete blogs. It also allows users
+                        to comment on various blogposts, as well as view the comments other users have left.</p>
+                    <p>I am currently in the process of implementing a registration and login system so that users can enjoy
+                        the full uses of Scribbl.</p>
+                    <p>Scribbl developed using Node.js, MongoDB, HTML5, CSS and EJS. Have a look at the code <a target
+                            "_blank" href="https://github.com/CassF/blogapp">here</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- PROJECT 4-->
+            <div class="col s4 project">
+                <div class=" project-hover">
+                    <img src="Images/flikshowplace.png">
+                    <a href="#modal4">
+                        <div class="project-overlay">
+                            <h2>
+                                Flikshow
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Modal Structure 4-->
+            <div id="modal4" class="modal">
+                <div class="modal-content">
+                    <h4>Flikshow</h4>
+                    <p>Flikshow allow users to search for images on Flickr which are then pulled down and plotted on a google
+                        map according to where the image was posted in the world.</p>
+                    <p>Flikshow developed using Node.js, HTML5, CSS, and EJS.</p>
+                    <p>Play around with Flikshow <a target="_blank" href="https://flikshow.herokuapp.com/">here</a></p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+                </div>
+            </div>
+            <!-- PROJECT 5-->
+            <div class="col s4 project">
+                <div class=" project-hover">
+                    <img src="Images/flikshowplace.png">
+                    <a href="#modal5">
+                        <div class="project-overlay">
+                            <h2>
+                                Flikshow
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Modal Structure 5-->
+            <div id="modal5" class="modal">
+                <div class="modal-content">
+                    <h4>Flikshow</h4>
+                    <p>Flikshow allow users to search for images on Flickr which are then pulled down and plotted on a google
+                        map according to where the image was posted in the world.</p>
+                    <p>Flikshow developed using Node.js, HTML5, CSS, and EJS.</p>
+                    <p>Play around with Flikshow <a target="_blank" href="https://flikshow.herokuapp.com/">here</a></p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Import CSS animation script -->
+    <script src="js/css3-animate-it.js"></script>
+    <!--<script type="text/javascript" src="js/aos.js"></script>-->
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="https://use.fontawesome.com/add6c7c4be.js"></script>
+    <!-- Import my personal stylesheet -->
+    <script src="js/newIndex.js"></script>
+</body>
+
+</html>
