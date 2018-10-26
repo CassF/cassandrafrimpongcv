@@ -1,6 +1,8 @@
 class Contact {
 
     constructor(obj){
+        // this.to = obj.to;
+
         if (!obj.firstName){
             throw new Error("You must include a first name");
         } else if (typeof obj.firstName != "string") {
